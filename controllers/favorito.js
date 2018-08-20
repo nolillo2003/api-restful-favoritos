@@ -30,7 +30,7 @@ function getFavorito(req, res) {
             return;
         }
 
-        res.status(200).send(favorito);
+        res.status(200).send({favorito});
     });
 }
 
